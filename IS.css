@@ -1,0 +1,71 @@
+body{
+    background: linear-gradient(#c6eb35 50% , #4b4bd5   50%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+  }
+  .container{
+    width:500px;
+    height: fit-content;
+    padding:20px;
+    box-shadow: 0 0 1rem rgb(0, 0 ,0,0.9);
+    background-color: #3c7dac;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .butt{
+    margin-top: 1.5rem;
+  }
+  button{
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    box-shadow: 0 0 1rem rgb(0, 0 ,0,0.9);
+    transition: 0.5s;
+  }
+  button :hover{
+    transform: scale(1.1);
+  }
+  .image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    
+  }
+  .img{
+    border-radius: 20px;
+    box-shadow: 0 0 1rem rgb(0, 0 ,0,0.9);
+  }
+  .result {
+       font-size: 3em;
+      line-height: 1.3em;
+      text-align: center;
+      color: rgb(15, 181, 10)
+  }
+  .message{
+      text-align: center;
+      font-weight: bold;
+      color: #221f1f;
+      font-size: 4.5vh;
+      line-height: 6vh;
+      min-height: 6vh;
+  }
+  .content{
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(194, 134, 250)
+  }
+  .head{
+    font-size: 40px;
+    color: rgb(250, 194, 134)
+    }
